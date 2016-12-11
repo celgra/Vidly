@@ -27,6 +27,7 @@ namespace Vidly.Controllers
                 .ToList();
 
             return View(movies);
+
         }
 
         public ActionResult Detail(int id)
